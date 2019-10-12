@@ -138,7 +138,9 @@
 .carousel.carousel-slider {
 	position: relative;
 	margin: 0;
-	overflow: hidden
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.19), 0 1px 0 rgba(0, 0, 0, 0.23);
 }
 
 .carousel.carousel-slider .control-arrow {
@@ -258,12 +260,6 @@
   padding: 0;
 	text-align: center;
   width: 100%;
-}
-
-@media (min-width:960px) {
-	.carousel .control-dots {
-		bottom: 0
-	}
 }
 
 .carousel .control-dots .dot {
